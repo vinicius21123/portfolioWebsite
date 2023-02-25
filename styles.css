@@ -1,11 +1,11 @@
 html{
-    background-color: pink;
+    background-color: black;
     text-align: center;
 }
 body{
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:white;
+    color:whitesmoke;
     margin:auto;
     width:80%;
     text-align: center;
@@ -67,12 +67,34 @@ nav ul li a:active{
     
 }
 main{
-    text-align: right;
+    
+    margin:30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about{
+    padding-left: 30px;
+    width:60%;
+    text-align: left;
+}
+.about h2{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.about p{
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 26px;
 }
 main img{
-    margin-right:20%;
-    width: 300px;
-    height: auto;
+    border: 1px solid white;
+    margin:20px;
+    width: 30%;
+    height: 100%;
 }
 .skills{
     background-color: white;
