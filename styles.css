@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    font-family: cursive;
+    color:white;
+    margin:0
+}
+main img{
+    width: 300px;
+    height: auto;
+}
+.skills{
+    background-color: white;
+    text-align: center;
+}
+.scontainer{
+    display: inline-block;
+    text-align: center;
+}
+.scontainer img{
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    
+}
