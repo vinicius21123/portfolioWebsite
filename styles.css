@@ -82,7 +82,7 @@ main{
 }
 .about h2{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: underline;
 }
 .about p{
@@ -118,16 +118,21 @@ main img{
     display:none
 }
 .skills{
-    background-color: white;
+    width: 100%;
     text-align: center;
 }
+.skills h2{
+    font-size: 35px;
+}
 .scontainer{
-    display: inline-block;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
 }
 .scontainer img{
     padding: 10px;
-    width: 100px;
+    width: 80px;
     height: auto;
-    
 }
