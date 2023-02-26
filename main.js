@@ -11,6 +11,26 @@ setInterval((timeContainer) => {
 
     document.getElementById("timeProgrammed").innerText = intlNumberFormatter.format(difference);
 }, 1000);
+
+let x = 0;
+setInterval(()=>{
+    if(x > 2){
+        x = 0;
+    }
+        switch(x){
+            case 0:
+                document.getElementById("portImage").src = "./me.JPG";
+                break;
+            case 1:
+                document.getElementById("portImage").src = "./me2.JPG";
+                break;
+            case 2:
+                document.getElementById("portImage").src = "./vini.JPG";
+                break;
+        }
+    x++;
+    
+},5000);
   
 function displayStuff(obj){
 
