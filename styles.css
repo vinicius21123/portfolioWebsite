@@ -34,23 +34,12 @@ h1 a{
 }
 @media only screen and (max-width: 950px) and (min-width:320px)
 {
+
     nav ul{
         margin-right: 5%;
     }
 }
-@media only screen and (max-width: 600px) and (min-width:320px)
-{
-    nav{
-        margin-bottom: 70px;
-    }
-    nav ul{
-        margin-right: 11%;
-    }
-    h1{
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+
 
 nav ul li{
     list-style: none;
@@ -121,6 +110,7 @@ main{
 }
 @media only screen and (max-width: 1305px) and (min-width:320px)
 {
+    
     .about{
         margin-left: auto;
         margin-right: auto;
@@ -154,7 +144,18 @@ main{
 #pam,#tea,#cards{
     display:none
 }
+#aboutMe{
+    margin-top: 50px;
+    margin-right: 55%;
+    text-align: left;
+    width: auto;
+}
+#aboutMe .scontainer{
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
 .skills{
+    margin-top: 35px;
     width: 100%;
     text-align: center;
 }
@@ -174,5 +175,22 @@ main{
     height: auto;
 }
 footer{
+    margin-top: 10px;
     font-size: 25px;
+}
+@media only screen and (max-width: 600px) and (min-width:320px)
+{
+    #aboutMe{
+        margin-right: 10%;
+    }
+    nav{
+        margin-bottom: 70px;
+    }
+    nav ul{
+        margin-right: 11%;
+    }
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
