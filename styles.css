@@ -7,7 +7,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:whitesmoke;
     margin:auto;
-    width:80%;
+    width:90%;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -66,8 +66,17 @@ nav ul li a:active{
     transform: translateY(2px);
     
 }
+@media only screen and (max-width: 600px) and (min-width:320px)
+{
+    nav ul{
+        display: none;
+    }
+    nav h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 main{
-    
     margin:30px;
     width: 100%;
     display: flex;
@@ -76,7 +85,7 @@ main{
     flex-wrap: wrap;
 }
 .about{
-    padding-left: 30px;
+
     width:60%;
     text-align: left;
 }
@@ -102,10 +111,23 @@ main{
     border: 1px solid white;
     width: auto;
     height: 100%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
 
+}
+@media only screen and (max-width: 1305px) and (min-width:320px)
+{
+    .about{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .imag{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .projects h2{
     font-size: 35px;
 }
